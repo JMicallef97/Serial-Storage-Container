@@ -1,7 +1,8 @@
 # Serial Storage Container
  
+An easily serializable container for storing a variety of primitive data types (or lists of them) with a name, description, and value. In portable (serialized, as a string) format, the data is stored in a simple format, with no nested data structures. The DLL for the library is located in the "Releases" section of this page. 
 
-An easily serializable container for storing a variety of primitive data types (or lists of them) with a name, description, and value. In portable (serialized, as a string) format, the data is stored in a simple format, with no nested data structures. 
+There's a console project in the folder called "SSC Test Program - Source Code and Program" that demonstrates the library features. If you want the source code for the program, it's all located in "SSC Test Program - Source Code And Program\Program.cs". If you just want the executable form of the program, it's located in "SSC Test Program - Source Code And Program\bin\Debug\SSC_TestApp.exe".
 
 # Adding Data To A SSC
 
@@ -50,7 +51,6 @@ if (!testContainer.deleteStringEntry("String Entry #1", out errorMessage))
 	// display error message (since unable to delete entry)
         Console.WriteLine(errorMessage);
 }
-
 ```
 
 # Updating data in a SSC
@@ -67,7 +67,6 @@ if (!testContainer.updateEntryName("Boolean Entry #1", SerialStorageContainer.En
 	// display error message (since unable to rename entry)
         Console.WriteLine(errorMessage);
 }
-
 ```
 
 Functions exist for each supported data type to update an entry's value(s). Note that each function returns a boolean (true if update succeeded, false if not).
@@ -81,7 +80,6 @@ if (!testContainer.updateBooleanEntryValues("Boolean Entry #1", new bool[1] { fa
 	// display error message if updating entry values failed
         Console.WriteLine("Unable to update setting 'Boolean Entry #1'!);
 }
-
 ```
 
 # Getting data from a SSC
@@ -96,7 +94,6 @@ Example of getting an entry instance (from a SSC object called testContainer):
 
 SerialStorageContainer.sscStringEntry? stringEntryInstance =
 	testContainer.getStringEntry("String Entry #1").Value;
-
 ```
 
 Example of getting a description from a boolean setting (from a SSC object called testContainer):
@@ -104,7 +101,6 @@ Example of getting a description from a boolean setting (from a SSC object calle
 // Get description of a boolean entry called "Boolean Entry #1".
 
  string booleanEntryDescription = testContainer.getBooleanEntryDescription("Boolean Entry #1");
-
 ```
 
 Example of getting entry values from a numeric setting (from a SSC object called testContainer):
@@ -113,7 +109,6 @@ Example of getting entry values from a numeric setting (from a SSC object called
 // Get entry data from a numeric entry called "Numeric List #1".
 
 List<double> numericListData = testContainer.getNumericEntryValues("Numeric List #1");
-
 ```
 
 # Serializing and deserializing a SSC
