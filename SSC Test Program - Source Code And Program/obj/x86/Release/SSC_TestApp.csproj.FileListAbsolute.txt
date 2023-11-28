@@ -1,0 +1,7 @@
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SSC_TestApp\bin\Release\SSC_TestApp.exe
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SSC_TestApp\bin\Release\SSC_TestApp.pdb
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SSC_TestApp\obj\x86\Release\SSC_TestApp.exe
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SSC_TestApp\obj\x86\Release\SSC_TestApp.pdb
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SSC_TestApp\obj\x86\Release\SSC_TestApp.csprojResolveAssemblyReference.cache
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SSC_TestApp\bin\Release\SerialStorageContainer.dll
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SSC_TestApp\bin\Release\SerialStorageContainer.pdb
