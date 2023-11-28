@@ -1,0 +1,4 @@
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SerialStorageContainer\bin\Debug\SerialStorageContainer.dll
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SerialStorageContainer\bin\Debug\SerialStorageContainer.pdb
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SerialStorageContainer\obj\Debug\SerialStorageContainer.dll
+C:\Users\jmicallef1\documents\visual studio 2010\Projects\SerialStorageContainer\SerialStorageContainer\obj\Debug\SerialStorageContainer.pdb
