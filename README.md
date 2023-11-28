@@ -3,8 +3,7 @@
 
 An easily serializable container for storing a variety of primitive data types (or lists of them) with a name, description, and value. In portable (serialized, as a string) format, the data is stored in a simple format, with no nested data structures. 
 
-#
- Adding Data To A SSC
+# Adding Data To A SSC
 
 The SSC supports 3 data types: **string**, **numeric** (numbers stored as the 'double' datatype) and **boolean**, and supports **lists** of those items. To add an item (or list of item), call the "add entry" 
 function of the relevant type. Note that each "add entry" function returns a boolean (true if adding setting succeeded, false if not) and an error 
