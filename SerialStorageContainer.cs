@@ -218,7 +218,7 @@ namespace SerialStorageContainerLib
         /// second item represents the entry's datatype. To populate this list, initialize the function with text from an
         /// SSC file.
         /// </summary>
-        public ReadOnlyCollection<Tuple<string, EntryType>> ConfigurationEntrys
+        public ReadOnlyCollection<Tuple<string, EntryType>> SSCEntries
         {
             get
             {
@@ -228,7 +228,7 @@ namespace SerialStorageContainerLib
         /// <summary>
         /// A string representing the raw SSC file text.
         /// </summary>
-        public string RawConfigFileText { get { return serializedSSCText; } }
+        public string SerializedSSCText { get { return serializedSSCText; } }
 
         #endregion
 
