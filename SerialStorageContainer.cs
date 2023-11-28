@@ -5,7 +5,7 @@ using System.Text;
 using System.Collections.ObjectModel;
 using System.IO;
 
-namespace SerialStorageContainer
+namespace SerialStorageContainerLib
 {
     /// <summary>
     /// A container for storing a variety of primitive data types (or lists of them) with a name,
@@ -235,6 +235,17 @@ namespace SerialStorageContainer
         #region CONSTRUCTORS
 
         // default constructor
+        public SerialStorageContainer()
+        {
+            // initialize variables
+            sscStringEntries = new Dictionary<string, sscStringEntry>();
+            sscNumericEntries = new Dictionary<string, sscNumericEntry>();
+            sscBooleanEntries = new Dictionary<string, sscBooleanEntry>();
+            sscEntriesMasterList = new List<Tuple<string, EntryType>>();
+            errorLog = "";
+        }
+        
+        // initialize an SSC from individual lists of entries
         public SerialStorageContainer(Tuple<string, sscStringEntry>[] stringEntries,
             Tuple<string, sscNumericEntry>[] numericEntries,
             Tuple<string, sscBooleanEntry>[] booleanEntries)

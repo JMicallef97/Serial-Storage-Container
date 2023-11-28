@@ -8,7 +8,7 @@
     <ProjectGuid>{EF2DFA10-AE40-4ACA-93CA-EF8D6C849D13}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SerialStorageContainer</RootNamespace>
+    <RootNamespace>SerialStorageContainerLib</RootNamespace>
     <AssemblyName>SerialStorageContainer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
